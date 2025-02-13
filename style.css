@@ -75,7 +75,9 @@ nav {
 .nav-logo, .logo {
   position: relative;
   width: 100px;
-  height: 60px;
+  height: 100px;
+  margin-top: 10px;
+  background-color: white;
 }
 
 .nav-name {
