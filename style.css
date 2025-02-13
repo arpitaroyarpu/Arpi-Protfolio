@@ -548,11 +548,13 @@ i {
   width: 30%;
   height: 250%;
   background: transparent;
+  border: 2px solid var(--border-color); /* Add border here */
   border-radius: 20px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow);
   overflow: hidden;
   cursor: pointer;
 }
+
 
 .project-box > i {
   font-size: 50px;
