@@ -481,23 +481,27 @@ i {
 
 .skill-per.html {
   animation-delay: 0.1s;
-  width: 85%;
+  width: 90%;
 }
 .skill-per.css {
   animation-delay: 0.1s;
-  width: 70%;
-}
-.skill-per.php {
-  animation-delay: 0.1s;
-  width: 65%;
+  width: 75%;
 }
 .skill-per.javascript {
   animation-delay: 0.1s;
-  width: 65%;
+  width: 80%;
+}
+.skill-per.sql {
+  animation-delay: 0.1s;
+  width: 75%;
+}
+.skill-per.php {
+  animation-delay: 0.1s;
+  width: 70%;
 }
 .skill-per.java {
   animation-delay: 0.1s;
-  width: 60%;
+  width: 65%;
 }
 
 @keyframes progress {
