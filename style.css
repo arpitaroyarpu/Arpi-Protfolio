@@ -385,7 +385,7 @@ i {
   flex-direction: column;
   padding-block: 45px 45px;
   padding-inline: 35px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   background: transparent;
   box-shadow: 1px 8px 10px 2px var(--first-shadow);
   border-radius: 20px;
