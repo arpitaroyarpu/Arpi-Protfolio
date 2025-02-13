@@ -9,6 +9,20 @@ function myMenuFunction() {
     }
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function () {
+            // Remove 'active-link' from all links
+            navLinks.forEach(nav => nav.classList.remove("active-link"));
+
+            // Add 'active-link' to the clicked link
+            this.classList.add("active-link");
+        });
+    });
+});
+
 
 
 
