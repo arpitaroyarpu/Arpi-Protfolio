@@ -437,6 +437,10 @@ i {
   font-weight: 500;
   transition: all 0.5s ease;
 }
+.about-me-btn a {
+  text-decoration: none;
+  color: inherit; /* Ensures it matches the button text color */
+}
 
 /* Skill Box */
 
