@@ -72,8 +72,10 @@ nav {
   z-index: 100;
 }
 
-.nav-logo {
+.nav-logo, .logo {
   position: relative;
+  width: 100px;
+  height: 60px;
 }
 
 .nav-name {
