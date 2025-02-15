@@ -500,15 +500,15 @@ i {
 }
 .skill-per.sql {
   animation-delay: 0.1s;
-  width: 70%;
+  width: 85%;
 }
 .skill-per.php {
   animation-delay: 0.1s;
-  width: 60%;
+  width: 70%;
 }
 .skill-per.java {
   animation-delay: 0.1s;
-  width: 75%;
+  width: 80%;
 }
 
 @keyframes progress {
