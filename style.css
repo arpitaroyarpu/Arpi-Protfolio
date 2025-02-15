@@ -443,6 +443,7 @@ i {
 }
 
 /* Skill Box */
+
 .skill {
   position: relative;
   max-width: 600px;
@@ -478,46 +479,36 @@ i {
   position: relative;
   display: block;
   height: 100%;
-  width: 90%;
+  width: 0%; /* Start width from 0% */
   border-radius: 6px;
   background: #8749f2;
-  animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
+  transition: width 1s ease-in-out; /* Smooth transition */
 }
 
 .skill-per.html {
-  animation-delay: 0.1s;
   width: 90%;
+  opacity: 1; /* Fade in */
 }
 .skill-per.css {
-  animation-delay: 0.1s;
   width: 85%;
+  opacity: 1; /* Fade in */
 }
 .skill-per.javascript {
-  animation-delay: 0.1s;
   width: 80%;
+  opacity: 1; /* Fade in */
 }
 .skill-per.sql {
-  animation-delay: 0.1s;
   width: 75%;
+  opacity: 1; /* Fade in */
 }
 .skill-per.php {
-  animation-delay: 0.1s;
   width: 70%;
+  opacity: 1; /* Fade in */
 }
 .skill-per.java {
-  animation-delay: 0.1s;
   width: 65%;
-}
-
-@keyframes progress {
-  0% {
-    width: 0;
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+  opacity: 1; /* Fade in */
 }
 
 .skill-per .tooltip {
@@ -531,6 +522,8 @@ i {
   background: #8749f2;
   z-index: 1;
 }
+
+
 
 /* Projects Box */
 
