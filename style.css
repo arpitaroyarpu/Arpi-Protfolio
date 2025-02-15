@@ -488,19 +488,19 @@ i {
 
 .skill-per.html {
   animation-delay: 0.1s;
-  width: 90%;
+  width: 100%;
 }
 .skill-per.css {
   animation-delay: 0.1s;
-  width: 85%;
+  width: 90%;
 }
 .skill-per.javascript {
   animation-delay: 0.1s;
-  width: 80%;
+  width: 85%;
 }
 .skill-per.sql {
   animation-delay: 0.1s;
-  width: 75%;
+  width: 70%;
 }
 .skill-per.php {
   animation-delay: 0.1s;
