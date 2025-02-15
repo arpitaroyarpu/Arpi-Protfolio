@@ -24,8 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-
 /*----------Dark Mode ---------------- */
 const body = document.querySelector("body");
 toggleSwitch = document.getElementById("toggle-switch");
@@ -112,4 +110,21 @@ function scrollActive(){
             .classList.remove("active-link");
         }
     })
+}
+
+
+/*Email send code */
+
+function emailSend(){
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "amirmdhossain1974@gmail.com",
+        Password : "EC6017B1DF7EE3A95641EEEDEC9ED7748C2B",
+        To : 'arpitaroyarpu315@gmail.com',
+        From : "amirmdhossain1974@gmail.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
 }
